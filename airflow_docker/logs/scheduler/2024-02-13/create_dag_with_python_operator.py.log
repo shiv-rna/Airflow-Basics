@@ -1,0 +1,1630 @@
+[2024-02-13T01:31:51.628+0000] {processor.py:161} INFO - Started process (PID=863) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:51.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:31:51.630+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:31:51.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:51.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:51.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.017 seconds
+[2024-02-13T01:31:53.660+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:53.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:31:53.662+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:31:53.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:53.673+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:53.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:31:58.732+0000] {processor.py:161} INFO - Started process (PID=866) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:58.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:31:58.734+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:31:58.734+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:58.737+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:31:58.736+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 8
+    }
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:31:58.737+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:31:58.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:32:00.744+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:00.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:00.746+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:00.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:00.748+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:00.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 8
+    }
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:00.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:00.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:32:06.809+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:06.810+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:06.811+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:06.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:06.813+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:06.812+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 7
+    'retry_delay':timedelta(minutes=)
+                                    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:06.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:06.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:32:07.824+0000] {processor.py:161} INFO - Started process (PID=869) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:07.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:07.825+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:07.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:07.827+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:07.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.023 seconds
+[2024-02-13T01:32:13.879+0000] {processor.py:161} INFO - Started process (PID=870) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:13.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:13.880+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:13.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:13.882+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:13.882+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 10
+    with
+        ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:13.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:13.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:32:15.899+0000] {processor.py:161} INFO - Started process (PID=871) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:15.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:15.900+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:15.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:15.902+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:15.902+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 10
+    with DAG
+           ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:15.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:15.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:32:16.934+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:16.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:16.935+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:16.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:16.938+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:16.937+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 12
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:16.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:16.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:32:18.961+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:18.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:18.962+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:18.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:18.965+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:18.964+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 11
+    def
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:18.965+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:18.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:32:22.000+0000] {processor.py:161} INFO - Started process (PID=879) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:22.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:22.002+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:22.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:22.005+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:22.004+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 12
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:22.005+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:22.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:32:24.027+0000] {processor.py:161} INFO - Started process (PID=880) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:24.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:24.029+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:24.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:24.031+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:24.031+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 13
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:24.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:24.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.036 seconds
+[2024-02-13T01:32:25.095+0000] {processor.py:161} INFO - Started process (PID=882) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:25.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:25.097+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:25.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:25.102+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:25.099+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 13
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:25.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:25.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.038 seconds
+[2024-02-13T01:32:30.167+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:30.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:30.168+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:30.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:30.171+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:30.170+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 13
+    ) as dag
+           ^
+SyntaxError: invalid syntax
+[2024-02-13T01:32:30.171+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:30.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:32:31.192+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:31.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:31.194+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:31.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:31.196+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:31.195+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 13
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:32:31.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:31.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:32:39.245+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:39.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:39.247+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:39.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:39.250+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:39.249+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:32:39.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:39.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.036 seconds
+[2024-02-13T01:32:45.290+0000] {processor.py:161} INFO - Started process (PID=886) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:45.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:45.292+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:45.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:45.294+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:45.293+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:32:45.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:45.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:32:47.318+0000] {processor.py:161} INFO - Started process (PID=887) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:47.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:47.319+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:47.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:47.322+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:47.321+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:32:47.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:47.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:32:49.351+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:49.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:32:49.353+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:49.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:49.355+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:32:49.355+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:32:49.356+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:32:49.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:33:17.494+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:17.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:17.497+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:17.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:17.500+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:17.499+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:17.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:17.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:33:22.557+0000] {processor.py:161} INFO - Started process (PID=903) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:22.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:22.559+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:22.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:22.562+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:22.561+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:22.562+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:22.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.038 seconds
+[2024-02-13T01:33:26.645+0000] {processor.py:161} INFO - Started process (PID=905) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:26.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:26.648+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:26.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:26.651+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:26.650+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:26.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:26.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:33:27.651+0000] {processor.py:161} INFO - Started process (PID=906) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:27.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:27.652+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:27.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:27.656+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:27.655+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:27.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:27.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:33:29.668+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:29.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:29.669+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:29.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:29.671+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:29.671+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 15
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:29.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:29.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:33:35.744+0000] {processor.py:161} INFO - Started process (PID=908) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:35.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:35.746+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:35.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:35.748+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:35.748+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 15
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:33:35.749+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:35.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:33:36.757+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:36.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:36.759+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:36.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:36.761+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:36.760+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 15
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:36.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:36.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:33:48.868+0000] {processor.py:161} INFO - Started process (PID=910) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:48.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:48.873+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:48.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:48.879+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:48.878+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 15
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:48.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:48.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.061 seconds
+[2024-02-13T01:33:51.885+0000] {processor.py:161} INFO - Started process (PID=917) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:51.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:51.892+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:51.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:51.895+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:51.894+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:51.896+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:51.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.051 seconds
+[2024-02-13T01:33:53.933+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:53.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:53.935+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:53.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:53.939+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:53.938+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:33:53.940+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:53.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.073 seconds
+[2024-02-13T01:33:57.032+0000] {processor.py:161} INFO - Started process (PID=920) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:57.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:33:57.034+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:57.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:57.038+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:33:57.037+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:33:57.038+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:33:57.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:34:00.093+0000] {processor.py:161} INFO - Started process (PID=921) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:00.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:00.094+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:00.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:00.096+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:00.096+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:00.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:00.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:34:02.103+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:02.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:02.105+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:02.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:02.108+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:02.107+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:02.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:02.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:34:04.120+0000] {processor.py:161} INFO - Started process (PID=923) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:04.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:04.123+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:04.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:04.126+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:04.125+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:04.127+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:04.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.043 seconds
+[2024-02-13T01:34:09.194+0000] {processor.py:161} INFO - Started process (PID=924) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:09.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:09.196+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:09.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:09.198+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:09.197+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 17
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:09.198+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:09.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:34:12.217+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:12.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:12.218+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:12.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:12.220+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:12.220+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 17
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:12.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:12.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:34:16.264+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:16.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:16.265+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:16.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:16.267+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:16.267+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 17
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:16.268+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:16.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:34:25.307+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:25.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:25.309+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:25.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:25.312+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:25.311+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 16
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:25.313+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:25.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.035 seconds
+[2024-02-13T01:34:35.394+0000] {processor.py:161} INFO - Started process (PID=935) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:35.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:35.396+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:35.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:35.398+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:35.398+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 10
+    def gr
+         ^
+SyntaxError: invalid syntax
+[2024-02-13T01:34:35.398+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:35.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.032 seconds
+[2024-02-13T01:34:38.473+0000] {processor.py:161} INFO - Started process (PID=936) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:38.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:38.475+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:38.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:38.480+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:38.478+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 10
+    def greet()
+              ^
+SyntaxError: invalid syntax
+[2024-02-13T01:34:38.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:38.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:34:40.491+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:40.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:40.492+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:40.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:40.495+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:40.494+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 13
+    with DAG(
+    ^
+IndentationError: expected an indented block
+[2024-02-13T01:34:40.495+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:40.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:34:51.574+0000] {processor.py:161} INFO - Started process (PID=945) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:51.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:34:51.576+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:51.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:51.578+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:34:51.577+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 19
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:34:51.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:34:51.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:35:01.652+0000] {processor.py:161} INFO - Started process (PID=947) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:01.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:01.654+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:01.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:01.656+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:01.656+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 19
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:35:01.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:01.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:35:02.661+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:02.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:02.662+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:02.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:02.665+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:02.664+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 19
+    ) as dag:
+            ^
+SyntaxError: unexpected EOF while parsing
+[2024-02-13T01:35:02.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:02.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:35:21.771+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:21.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:21.774+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:21.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:21.784+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:21.784+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 20, in <module>
+    task1
+NameError: name 'task1' is not defined
+[2024-02-13T01:35:21.785+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:21.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.036 seconds
+[2024-02-13T01:35:27.124+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:27.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:27.126+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:27.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:27.130+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:27.129+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 3
+    from air
+           ^
+SyntaxError: invalid syntax
+[2024-02-13T01:35:27.130+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:27.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.035 seconds
+[2024-02-13T01:35:31.139+0000] {processor.py:161} INFO - Started process (PID=958) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:31.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:31.141+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:31.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:31.143+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:31.143+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 3
+    from airflow.operators
+                         ^
+SyntaxError: invalid syntax
+[2024-02-13T01:35:31.144+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:31.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:35:35.160+0000] {processor.py:161} INFO - Started process (PID=959) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:35.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:35.161+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:35.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:35.164+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:35.163+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 3
+    from airflow.operators.python import
+                                        ^
+SyntaxError: invalid syntax
+[2024-02-13T01:35:35.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:35.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:35:42.266+0000] {processor.py:161} INFO - Started process (PID=960) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:42.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:42.269+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:42.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:42.277+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:42.276+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 3, in <module>
+    from airflow.operators.python import Python_
+ImportError: cannot import name 'Python_' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py)
+[2024-02-13T01:35:42.278+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:42.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.042 seconds
+[2024-02-13T01:35:45.295+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:45.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:35:45.296+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:45.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:45.302+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:35:45.301+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 21, in <module>
+    task1
+NameError: name 'task1' is not defined
+[2024-02-13T01:35:45.302+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:35:45.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.034 seconds
+[2024-02-13T01:36:02.406+0000] {processor.py:161} INFO - Started process (PID=969) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:02.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:02.408+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:02.419+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:02.522+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.521+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:our_dag_with_python_operator_v1
+[2024-02-13T01:36:02.534+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.534+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:our_dag_with_python_operator_v1
+[2024-02-13T01:36:02.543+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.543+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:our_dag_with_python_operator_v1
+[2024-02-13T01:36:02.544+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.544+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:36:02.553+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.552+0000] {dag.py:3058} INFO - Creating ORM DAG for our_dag_with_python_operator_v1
+[2024-02-13T01:36:02.561+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:02.560+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:36:02.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.178 seconds
+[2024-02-13T01:36:08.525+0000] {processor.py:161} INFO - Started process (PID=970) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:08.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:08.527+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:08.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:08.529+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:08.529+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    )
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:08.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:08.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:36:11.543+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:11.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:11.545+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:11.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:11.551+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:11.550+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 21, in <module>
+    task1 = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'python_callable'
+[2024-02-13T01:36:11.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:11.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:36:13.601+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:13.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:13.602+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:13.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:13.607+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:13.607+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:13.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:13.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.034 seconds
+[2024-02-13T01:36:17.623+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:17.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:17.624+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:17.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:17.627+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:17.626+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:17.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:17.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:36:19.673+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:19.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:19.675+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:19.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:19.677+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:19.677+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:19.677+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:19.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.029 seconds
+[2024-02-13T01:36:49.841+0000] {processor.py:161} INFO - Started process (PID=983) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:49.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:49.842+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:49.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:49.845+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:49.844+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:49.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:49.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:36:54.876+0000] {processor.py:161} INFO - Started process (PID=990) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:54.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:36:54.878+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:54.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:54.880+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:36:54.879+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:36:54.880+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:36:54.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:37:06.961+0000] {processor.py:161} INFO - Started process (PID=992) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:06.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:06.963+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:06.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:06.965+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:06.965+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:06.966+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:06.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:37:08.975+0000] {processor.py:161} INFO - Started process (PID=993) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:08.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:08.976+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:08.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:08.979+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:08.978+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:08.979+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:08.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:37:10.015+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:10.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:10.017+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:10.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:10.019+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:10.018+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:10.019+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:10.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:37:13.045+0000] {processor.py:161} INFO - Started process (PID=995) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:13.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:13.046+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:13.046+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:13.049+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:13.048+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:13.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:13.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:37:43.190+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:43.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:43.191+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:43.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:43.194+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:43.193+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:43.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:43.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:37:59.295+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:59.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:37:59.297+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:59.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:59.299+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:37:59.299+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:37:59.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:37:59.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:38:00.304+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:00.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:38:00.306+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:00.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:00.308+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:00.307+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:38:00.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:00.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:38:25.404+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:25.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:38:25.405+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:25.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:25.408+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:25.407+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:38:25.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:25.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:38:55.588+0000] {processor.py:161} INFO - Started process (PID=1028) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:55.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:38:55.591+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:55.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:55.594+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:55.593+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 23
+    python_callable=greet
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:38:55.594+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:55.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.120 seconds
+[2024-02-13T01:38:58.754+0000] {processor.py:161} INFO - Started process (PID=1030) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:58.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:38:58.756+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:58.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:58.773+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:38:58.918+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:58.918+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:38:58.942+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:38:58.942+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:38:58.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.225 seconds
+[2024-02-13T01:39:29.111+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:29.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:39:29.121+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:29.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:29.170+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:29.217+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:29.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:39:29.253+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:29.253+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:39:29.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.169 seconds
+[2024-02-13T01:39:59.315+0000] {processor.py:161} INFO - Started process (PID=1047) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:59.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:39:59.317+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:59.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:59.326+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:39:59.347+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:59.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:39:59.366+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:39:59.365+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:39:59.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.072 seconds
+[2024-02-13T01:40:13.372+0000] {processor.py:161} INFO - Started process (PID=1048) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:13.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:13.373+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:13.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:13.383+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:13.403+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:13.403+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:13.420+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:13.420+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:13.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.070 seconds
+[2024-02-13T01:40:23.478+0000] {processor.py:161} INFO - Started process (PID=1056) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:23.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:23.480+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:23.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:23.490+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:23.510+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:23.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:23.530+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:23.530+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:23.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.087 seconds
+[2024-02-13T01:40:25.497+0000] {processor.py:161} INFO - Started process (PID=1057) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:25.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:25.499+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:25.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:25.509+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:25.530+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:25.530+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:25.548+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:25.548+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:25.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.072 seconds
+[2024-02-13T01:40:29.604+0000] {processor.py:161} INFO - Started process (PID=1059) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:29.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:29.606+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:29.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:29.625+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:29.647+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:29.646+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:29.665+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:29.665+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:29.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.084 seconds
+[2024-02-13T01:40:33.642+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:33.644+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:33.645+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:33.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:33.661+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:33.690+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:33.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:33.715+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:33.715+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:33.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.103 seconds
+[2024-02-13T01:40:35.755+0000] {processor.py:161} INFO - Started process (PID=1061) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:35.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:35.756+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:35.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:35.769+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:35.788+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:35.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:35.805+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:35.805+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:35.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.072 seconds
+[2024-02-13T01:40:39.790+0000] {processor.py:161} INFO - Started process (PID=1062) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:39.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:39.792+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:39.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:39.809+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:39.851+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:39.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:39.876+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:39.875+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:39.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.120 seconds
+[2024-02-13T01:40:44.874+0000] {processor.py:161} INFO - Started process (PID=1063) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:44.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:44.876+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:44.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:44.886+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:44.906+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:44.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:44.923+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:44.923+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:44.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.071 seconds
+[2024-02-13T01:40:49.989+0000] {processor.py:161} INFO - Started process (PID=1064) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:49.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:49.992+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:49.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:50.014+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:50.049+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:50.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:50.074+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:50.074+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:50.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.128 seconds
+[2024-02-13T01:40:59.053+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:59.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:40:59.056+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:59.056+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:59.100+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v1' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:40:59.143+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:59.143+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:40:59.169+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:40:59.169+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v1 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:40:59.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.151 seconds
+[2024-02-13T01:41:12.262+0000] {processor.py:161} INFO - Started process (PID=1072) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:12.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:41:12.264+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:12.274+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:12.382+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.381+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:our_dag_with_python_operator_v2
+[2024-02-13T01:41:12.393+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.393+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:our_dag_with_python_operator_v2
+[2024-02-13T01:41:12.403+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.402+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:our_dag_with_python_operator_v2
+[2024-02-13T01:41:12.403+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.403+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:41:12.412+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.412+0000] {dag.py:3058} INFO - Creating ORM DAG for our_dag_with_python_operator_v2
+[2024-02-13T01:41:12.420+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:12.420+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:41:12.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.177 seconds
+[2024-02-13T01:41:42.499+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:42.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:41:42.505+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:42.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:42.531+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:42.557+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:42.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:41:42.578+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:42.578+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:41:42.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.116 seconds
+[2024-02-13T01:41:46.510+0000] {processor.py:161} INFO - Started process (PID=1081) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:46.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:41:46.512+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:46.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:46.514+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:46.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={}
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:41:46.514+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:46.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.031 seconds
+[2024-02-13T01:41:48.529+0000] {processor.py:161} INFO - Started process (PID=1082) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:48.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:41:48.530+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:48.530+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:48.533+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:48.532+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name'}
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:41:48.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:48.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:41:50.574+0000] {processor.py:161} INFO - Started process (PID=1083) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:50.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:41:50.580+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:50.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:50.587+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:41:50.586+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':}
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:41:50.588+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:41:50.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.054 seconds
+[2024-02-13T01:42:05.693+0000] {processor.py:161} INFO - Started process (PID=1092) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:05.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:05.695+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:05.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:05.697+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:05.696+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':} #Dictionary of key words as agruments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:05.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:05.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:42:07.709+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:07.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:07.711+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:07.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:07.714+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:07.713+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':} #Dictionary of key words as aguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:07.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:07.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:42:11.775+0000] {processor.py:161} INFO - Started process (PID=1094) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:11.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:11.778+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:11.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:11.782+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:11.781+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:11.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:11.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.035 seconds
+[2024-02-13T01:42:15.813+0000] {processor.py:161} INFO - Started process (PID=1095) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:15.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:15.816+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:15.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:15.819+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:15.818+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':""} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:15.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:15.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.037 seconds
+[2024-02-13T01:42:16.854+0000] {processor.py:161} INFO - Started process (PID=1096) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:16.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:16.856+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:16.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:16.858+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:16.858+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':"Shiv"} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:16.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:16.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:42:23.901+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:23.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:23.903+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:23.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:23.905+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:23.905+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':"Shiv"} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:23.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:23.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:42:25.925+0000] {processor.py:161} INFO - Started process (PID=1105) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:25.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:25.926+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:25.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:25.928+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:25.928+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':"Shiv"} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:25.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:25.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:42:29.979+0000] {processor.py:161} INFO - Started process (PID=1106) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:29.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:29.981+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:29.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:29.984+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:29.983+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':"Shiv"} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:29.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:30.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.033 seconds
+[2024-02-13T01:42:46.092+0000] {processor.py:161} INFO - Started process (PID=1108) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:46.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:46.094+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:46.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:46.096+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:46.096+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv"} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:46.096+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:46.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:42:48.105+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:48.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:48.106+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:48.106+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:48.109+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:48.108+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:48.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:48.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:42:50.117+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:50.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:50.118+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:50.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:50.120+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:50.120+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', age} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:50.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:50.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:42:53.164+0000] {processor.py:161} INFO - Started process (PID=1116) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:53.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:53.166+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:53.165+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:53.168+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:53.167+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', age'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:53.168+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:53.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.030 seconds
+[2024-02-13T01:42:55.181+0000] {processor.py:161} INFO - Started process (PID=1117) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:55.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:55.182+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:55.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:55.185+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:55.184+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', 'age'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:55.185+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:55.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.026 seconds
+[2024-02-13T01:42:58.198+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:58.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:58.200+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:58.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:58.202+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:58.202+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', 'age':'20'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:58.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:58.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:42:59.238+0000] {processor.py:161} INFO - Started process (PID=1119) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:59.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:42:59.242+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:59.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:59.248+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:42:59.247+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', 'age':'27'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:42:59.249+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:42:59.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.042 seconds
+[2024-02-13T01:43:05.322+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:05.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:43:05.325+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:05.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:05.328+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:05.327+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', 'age':27'} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:43:05.328+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:05.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.044 seconds
+[2024-02-13T01:43:06.357+0000] {processor.py:161} INFO - Started process (PID=1122) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:06.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:43:06.359+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:06.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:06.361+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:06.361+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 24
+    op_kwargs={'name':'Shiv', 'age':27} #Dictionary of key words as arguments
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T01:43:06.362+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:06.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.027 seconds
+[2024-02-13T01:43:31.509+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:31.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:43:31.511+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:31.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:31.525+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:43:31.628+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:31.627+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:43:31.644+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:43:31.643+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:43:31.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.162 seconds
+[2024-02-13T01:44:01.789+0000] {processor.py:161} INFO - Started process (PID=1139) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:01.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:44:01.791+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:01.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:01.801+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:01.821+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:01.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:44:01.840+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:01.840+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:44:01.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.074 seconds
+[2024-02-13T01:44:20.927+0000] {processor.py:161} INFO - Started process (PID=1140) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:20.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:44:20.930+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:20.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:20.945+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:20.973+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:20.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:44:20.999+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:20.999+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:44:21.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.100 seconds
+[2024-02-13T01:44:26.951+0000] {processor.py:161} INFO - Started process (PID=1148) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:26.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:44:26.952+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:26.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:26.963+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:26.983+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:26.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:44:27.000+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:27.000+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:44:27.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.072 seconds
+[2024-02-13T01:44:27.959+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:27.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:44:27.960+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:27.960+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:27.974+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:27.995+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:27.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:44:28.011+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:28.011+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:44:28.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.074 seconds
+[2024-02-13T01:44:58.184+0000] {processor.py:161} INFO - Started process (PID=1157) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:58.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:44:58.186+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:58.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:58.195+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:44:58.216+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:58.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:44:58.235+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:44:58.234+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:44:58.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.075 seconds
+[2024-02-13T01:45:28.390+0000] {processor.py:161} INFO - Started process (PID=1165) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:28.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:45:28.392+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:28.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:28.403+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:28.424+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:28.424+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:45:28.443+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:28.443+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:45:28.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.074 seconds
+[2024-02-13T01:45:58.600+0000] {processor.py:161} INFO - Started process (PID=1173) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:58.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:45:58.603+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:58.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:58.616+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:45:58.671+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:58.671+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:45:58.697+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:45:58.696+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:45:58.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.138 seconds
+[2024-02-13T01:46:28.833+0000] {processor.py:161} INFO - Started process (PID=1181) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:28.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:46:28.835+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:28.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:28.845+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:28.868+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:28.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:46:28.892+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:28.892+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:46:28.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.080 seconds
+[2024-02-13T01:46:59.059+0000] {processor.py:161} INFO - Started process (PID=1189) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:59.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:46:59.061+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:59.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:59.071+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:46:59.092+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:59.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:46:59.110+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:46:59.110+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:46:59.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.072 seconds
+[2024-02-13T01:47:17.219+0000] {processor.py:161} INFO - Started process (PID=1191) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:17.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:47:17.220+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:17.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:17.222+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:17.222+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    def get_name
+               ^
+SyntaxError: invalid syntax
+[2024-02-13T01:47:17.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:17.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:47:18.230+0000] {processor.py:161} INFO - Started process (PID=1192) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:18.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:47:18.232+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:18.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:18.234+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:18.234+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    def get_name()
+                 ^
+SyntaxError: invalid syntax
+[2024-02-13T01:47:18.235+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:18.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2024-02-13T01:47:29.312+0000] {processor.py:161} INFO - Started process (PID=1199) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:29.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2024-02-13T01:47:29.314+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:29.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:29.324+0000] {processor.py:840} INFO - DAG(s) 'our_dag_with_python_operator_v2' retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2024-02-13T01:47:29.344+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:29.344+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T01:47:29.361+0000] {logging_mixin.py:188} INFO - [2024-02-13T01:47:29.360+0000] {dag.py:3823} INFO - Setting next_dagrun for our_dag_with_python_operator_v2 to 2024-02-13 00:00:00+00:00, run_after=2024-02-14 00:00:00+00:00
+[2024-02-13T01:47:29.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.077 seconds

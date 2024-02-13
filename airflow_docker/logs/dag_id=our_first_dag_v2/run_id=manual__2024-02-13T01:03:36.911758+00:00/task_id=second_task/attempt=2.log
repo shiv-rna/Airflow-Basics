@@ -1,0 +1,25 @@
+[2024-02-13T01:05:40.620+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag_v2.second_task manual__2024-02-13T01:03:36.911758+00:00 [queued]>
+[2024-02-13T01:05:40.626+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag_v2.second_task manual__2024-02-13T01:03:36.911758+00:00 [queued]>
+[2024-02-13T01:05:40.626+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 6
+[2024-02-13T01:05:40.641+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): second_task> on 2024-02-13 01:03:36.911758+00:00
+[2024-02-13T01:05:40.648+0000] {standard_task_runner.py:60} INFO - Started process 430 to run task
+[2024-02-13T01:05:40.651+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag_v2', 'second_task', 'manual__2024-02-13T01:03:36.911758+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/our_first_dag.py', '--cfg-path', '/tmp/tmppy0gg1sn']
+[2024-02-13T01:05:40.652+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask second_task
+[2024-02-13T01:05:40.693+0000] {task_command.py:423} INFO - Running <TaskInstance: our_first_dag_v2.second_task manual__2024-02-13T01:03:36.911758+00:00 [running]> on host e97f82a89325
+[2024-02-13T01:05:40.755+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shiv' AIRFLOW_CTX_DAG_ID='our_first_dag_v2' AIRFLOW_CTX_TASK_ID='second_task' AIRFLOW_CTX_EXECUTION_DATE='2024-02-13T01:03:36.911758+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-13T01:03:36.911758+00:00'
+[2024-02-13T01:05:40.757+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-13T01:05:40.757+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo, I am the second one here!']
+[2024-02-13T01:05:40.770+0000] {subprocess.py:86} INFO - Output:
+[2024-02-13T01:05:40.772+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: echo,: command not found
+[2024-02-13T01:05:40.773+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2024-02-13T01:05:40.781+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-02-13T01:05:40.784+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=our_first_dag_v2, task_id=second_task, execution_date=20240213T010336, start_date=20240213T010540, end_date=20240213T010540
+[2024-02-13T01:05:40.798+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task second_task (Bash command failed. The command returned a non-zero exit code 127.; 430)
+[2024-02-13T01:05:40.823+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-13T01:05:40.837+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
