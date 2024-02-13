@@ -1,0 +1,20 @@
+    1  export AIRFLOW_HOME=/workspaces/Airflow_101/airflow_tutorial
+    2  source py_env/bin/activate
+    3  cd airflow_tutorial/
+    4  source py_env/bin/activate
+    5  airflow scheduler
+    6  source py_env/bin/activate
+    7  python --version
+    8  airflow --version
+    9  clear
+   10  airflow webserver -p 8080
+   11  clear
+   12  airflow users create --help
+   13  airflow users create --username admin --firstname firstname --lastname lastname --role Admin --email admin@domain.com
+   14  airflow webserver -p 8080
+   15  airflow standalone
+   16  airflow webserver -p 8080
+   17  cd airflow_tutorial/
+   18  source py_env/bin/activate
+   19  airflow scheduler
+   20  history > saved_command.txt
