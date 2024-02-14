@@ -5125,3 +5125,21 @@ File Path                                               PID  Runtime      # DAGs
 /opt/airflow/dags/our_first_dag.py                                             1           0  0.17s           2024-02-13T01:47:02
 /opt/airflow/dags/create_dag_with_python_operator.py   1191  0.00s             1           0  0.09s           2024-02-13T01:46:59
 ================================================================================
+[2024-02-13T01:47:47.465+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.11s           2024-02-13T01:47:32
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.10s           2024-02-13T01:47:29
+================================================================================
+[2024-02-13T01:48:17.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.08s           2024-02-13T01:48:02
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.17s           2024-02-13T01:47:59
+================================================================================
