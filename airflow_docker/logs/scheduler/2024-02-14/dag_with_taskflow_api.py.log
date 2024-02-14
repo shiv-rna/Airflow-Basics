@@ -1948,3 +1948,794 @@ SyntaxError: invalid syntax
 [2024-02-14T04:14:32.874+0000] {logging_mixin.py:188} INFO - [2024-02-14T04:14:32.874+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-14T04:14:32.892+0000] {logging_mixin.py:188} INFO - [2024-02-14T04:14:32.892+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
 [2024-02-14T04:14:32.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.072 seconds
+[2024-02-14T20:59:17.243+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:17.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T20:59:17.257+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:17.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:17.311+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:17.879+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:17.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T20:59:17.979+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:17.978+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T20:59:18.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.817 seconds
+[2024-02-14T20:59:48.618+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:48.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T20:59:48.620+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:48.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:48.634+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T20:59:48.667+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:48.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T20:59:48.695+0000] {logging_mixin.py:188} INFO - [2024-02-14T20:59:48.695+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T20:59:48.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.106 seconds
+[2024-02-14T21:00:18.956+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:18.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:00:18.967+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:18.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:19.000+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:19.106+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:19.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:00:19.196+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:19.196+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:00:19.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.328 seconds
+[2024-02-14T21:00:49.544+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:49.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:00:49.547+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:49.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:49.559+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:00:49.590+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:49.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:00:49.619+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:00:49.619+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:00:49.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.103 seconds
+[2024-02-14T21:01:19.795+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:19.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:01:19.798+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:19.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:19.820+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:19.851+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:19.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:01:19.880+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:19.879+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:01:19.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.112 seconds
+[2024-02-14T21:01:50.167+0000] {processor.py:161} INFO - Started process (PID=88) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:50.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:01:50.173+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:50.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:50.197+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:01:50.249+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:50.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:01:50.281+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:01:50.281+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:01:50.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.149 seconds
+[2024-02-14T21:02:20.552+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:20.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:02:20.556+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:20.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:20.596+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:20.670+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:20.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:02:20.696+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:20.696+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:02:20.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.181 seconds
+[2024-02-14T21:02:51.043+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:51.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:02:51.055+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:51.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:51.088+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:02:51.157+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:51.156+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:02:51.222+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:02:51.221+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:02:51.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.223 seconds
+[2024-02-14T21:03:21.506+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:21.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:03:21.508+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:21.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:21.521+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:21.553+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:21.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:03:21.582+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:21.582+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:03:21.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.104 seconds
+[2024-02-14T21:03:51.886+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:51.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:03:51.889+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:51.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:51.903+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:03:51.934+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:51.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:03:51.963+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:03:51.962+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:03:51.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.103 seconds
+[2024-02-14T21:04:22.232+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:22.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:04:22.235+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:22.235+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:22.249+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:22.280+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:22.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:04:22.308+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:22.307+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:04:22.347+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.118 seconds
+[2024-02-14T21:04:52.499+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:52.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:04:52.502+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:52.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:52.515+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:04:52.549+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:52.549+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:04:52.582+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:04:52.582+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:04:52.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.108 seconds
+[2024-02-14T21:05:22.835+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:22.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:05:22.847+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:22.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:22.891+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:22.952+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:22.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:05:23.003+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:23.003+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:05:23.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.244 seconds
+[2024-02-14T21:05:53.231+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:53.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:05:53.243+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:53.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:53.264+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:05:53.307+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:53.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:05:53.348+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:05:53.342+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:05:53.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.164 seconds
+[2024-02-14T21:06:23.700+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:23.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:06:23.705+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:23.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:23.737+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:23.767+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:23.767+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:06:23.794+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:23.794+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:06:23.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.135 seconds
+[2024-02-14T21:06:54.032+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:54.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:06:54.036+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:54.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:54.049+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:06:54.080+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:54.079+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:06:54.108+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:06:54.107+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:06:54.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.103 seconds
+[2024-02-14T21:07:24.350+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:24.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:07:24.353+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:24.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:24.367+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:24.399+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:24.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:07:24.429+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:24.428+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:07:24.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.113 seconds
+[2024-02-14T21:07:54.704+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:54.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:07:54.708+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:54.707+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:54.722+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:07:54.820+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:54.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:07:54.879+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:07:54.878+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:07:54.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.213 seconds
+[2024-02-14T21:08:25.058+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:25.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:08:25.062+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:25.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:25.076+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:25.106+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:25.106+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:08:25.137+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:25.137+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:08:25.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.108 seconds
+[2024-02-14T21:08:55.390+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:55.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:08:55.393+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:55.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:55.406+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:08:55.440+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:55.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:08:55.480+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:08:55.480+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:08:55.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.118 seconds
+[2024-02-14T21:09:25.754+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:25.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:09:25.758+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:25.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:25.770+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:25.833+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:25.833+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:09:25.893+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:25.893+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:09:25.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.196 seconds
+[2024-02-14T21:09:56.148+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:56.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:09:56.161+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:56.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:56.177+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:09:56.207+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:56.207+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:09:56.235+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:09:56.235+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:09:56.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.131 seconds
+[2024-02-14T21:10:26.529+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:26.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:10:26.532+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:26.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:26.550+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:26.587+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:26.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:10:26.618+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:26.618+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:10:26.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.139 seconds
+[2024-02-14T21:10:56.893+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:56.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:10:56.896+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:56.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:56.909+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:10:56.940+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:56.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:10:56.969+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:10:56.969+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:10:56.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.105 seconds
+[2024-02-14T21:11:27.187+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:27.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:11:27.191+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:27.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:27.204+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:27.237+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:27.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:11:27.268+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:27.267+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:11:27.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.110 seconds
+[2024-02-14T21:11:57.550+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:57.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:11:57.555+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:57.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:57.575+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:11:57.609+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:57.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:11:57.640+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:11:57.640+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:11:57.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.124 seconds
+[2024-02-14T21:12:27.825+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:27.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:12:27.836+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:27.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:27.864+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:27.947+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:27.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:12:28.011+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:28.010+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:12:28.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.233 seconds
+[2024-02-14T21:12:58.215+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:58.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:12:58.218+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:58.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:58.232+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:12:58.266+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:58.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:12:58.295+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:12:58.295+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:12:58.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.106 seconds
+[2024-02-14T21:13:28.556+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:28.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:13:28.568+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:28.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:28.597+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:28.645+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:28.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:13:28.688+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:28.688+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:13:28.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.160 seconds
+[2024-02-14T21:13:58.968+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:58.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:13:58.980+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:58.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:59.003+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:13:59.071+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:59.070+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:13:59.123+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:13:59.123+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:13:59.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.202 seconds
+[2024-02-14T21:14:29.494+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:29.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:14:29.497+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:29.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:29.512+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:29.545+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:29.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:14:29.573+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:29.573+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:14:29.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.106 seconds
+[2024-02-14T21:14:59.829+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:59.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:14:59.831+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:59.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:59.844+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:14:59.877+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:59.877+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:14:59.905+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:14:59.904+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:14:59.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.104 seconds
+[2024-02-14T21:15:30.150+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:15:30.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:15:30.153+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:15:30.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:15:30.167+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:15:30.200+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:15:30.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:15:30.228+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:15:30.228+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:15:30.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.114 seconds
+[2024-02-14T21:16:00.545+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:00.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:16:00.548+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:00.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:00.560+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:00.593+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:00.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:16:00.620+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:00.620+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:16:00.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.105 seconds
+[2024-02-14T21:16:30.882+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:30.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:16:30.885+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:30.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:30.898+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:16:30.961+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:30.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:16:30.992+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:16:30.992+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:16:31.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.137 seconds
+[2024-02-14T21:17:01.237+0000] {processor.py:161} INFO - Started process (PID=401) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:01.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:17:01.239+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:01.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:01.252+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:01.284+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:01.283+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:17:01.312+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:01.312+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:17:01.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.105 seconds
+[2024-02-14T21:17:31.571+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:31.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:17:31.574+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:31.574+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:31.587+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:17:31.621+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:31.621+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:17:31.652+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:17:31.652+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:17:31.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.109 seconds
+[2024-02-14T21:18:01.937+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:01.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:18:01.940+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:01.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:01.955+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:01.985+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:01.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:18:02.011+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:02.011+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:18:02.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.121 seconds
+[2024-02-14T21:18:32.194+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:32.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:18:32.198+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:32.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:32.211+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:18:32.244+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:32.244+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:18:32.282+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:18:32.281+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:18:32.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.116 seconds
+[2024-02-14T21:19:02.538+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:02.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:19:02.541+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:02.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:02.554+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:02.586+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:02.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:19:02.615+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:02.614+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:19:02.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.110 seconds
+[2024-02-14T21:19:32.893+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:32.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:19:32.897+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:32.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:32.911+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:19:32.958+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:32.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:19:32.995+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:19:32.995+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:19:33.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.163 seconds
+[2024-02-14T21:20:03.381+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:03.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:20:03.394+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:03.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:03.423+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:03.477+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:03.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:20:03.504+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:03.504+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:20:03.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.156 seconds
+[2024-02-14T21:20:33.753+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:33.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:20:33.755+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:33.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:33.768+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:20:33.801+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:33.801+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:20:33.829+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:20:33.828+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:20:33.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.125 seconds
+[2024-02-14T21:21:04.028+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:04.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:21:04.031+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:04.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:04.044+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:04.075+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:04.074+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:21:04.105+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:04.104+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:21:04.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.129 seconds
+[2024-02-14T21:21:34.460+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:34.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:21:34.467+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:34.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:34.519+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:21:34.612+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:34.612+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:21:34.673+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:21:34.673+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:21:34.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.346 seconds
+[2024-02-14T21:22:04.967+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:04.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:22:04.970+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:04.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:04.983+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:05.015+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:05.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:22:05.074+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:05.074+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:22:05.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.142 seconds
+[2024-02-14T21:22:35.320+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:35.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:22:35.323+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:35.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:35.336+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:22:35.379+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:35.378+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:22:35.416+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:22:35.416+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:22:35.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.125 seconds
+[2024-02-14T21:23:05.616+0000] {processor.py:161} INFO - Started process (PID=525) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:05.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:23:05.618+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:05.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:05.631+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:05.672+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:05.671+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:23:05.704+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:05.704+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:23:05.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.124 seconds
+[2024-02-14T21:23:36.038+0000] {processor.py:161} INFO - Started process (PID=535) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:36.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:23:36.041+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:36.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:36.055+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:23:36.087+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:36.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:23:36.121+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:23:36.121+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:23:36.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.118 seconds
+[2024-02-14T21:24:06.487+0000] {processor.py:161} INFO - Started process (PID=546) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:06.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:24:06.490+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:06.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:06.503+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:06.534+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:06.533+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:24:06.594+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:06.589+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:24:06.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.144 seconds
+[2024-02-14T21:24:36.803+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:36.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:24:36.807+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:36.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:36.819+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:24:36.851+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:36.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:24:36.883+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:24:36.883+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:24:36.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.125 seconds
+[2024-02-14T21:25:07.110+0000] {processor.py:161} INFO - Started process (PID=566) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:07.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:25:07.113+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:07.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:07.126+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:07.159+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:07.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:25:07.201+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:07.201+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:25:07.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.149 seconds
+[2024-02-14T21:25:37.407+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:37.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:25:37.409+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:37.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:37.423+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:25:37.469+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:37.469+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:25:37.522+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:25:37.522+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:25:37.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.170 seconds
+[2024-02-14T21:26:07.907+0000] {processor.py:161} INFO - Started process (PID=590) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:07.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:26:07.918+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:07.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:07.951+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:08.067+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:08.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:26:08.161+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:08.161+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:26:08.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.386 seconds
+[2024-02-14T21:26:38.583+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:38.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:26:38.592+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:38.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:38.632+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:26:38.775+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:38.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:26:38.907+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:26:38.907+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:26:39.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.521 seconds
+[2024-02-14T21:27:09.278+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:09.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:27:09.281+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:09.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:09.296+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:09.328+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:09.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:27:09.359+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:09.358+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:27:09.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.130 seconds
+[2024-02-14T21:27:39.583+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:39.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:27:39.586+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:39.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:39.600+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:27:39.632+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:39.631+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:27:39.663+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:27:39.663+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:27:39.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.130 seconds
+[2024-02-14T21:28:09.917+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:09.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:28:09.920+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:09.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:09.933+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:09.965+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:09.965+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:28:09.997+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:09.997+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:28:10.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.110 seconds
+[2024-02-14T21:28:40.215+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:40.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:28:40.218+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:40.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:40.234+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:28:40.270+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:40.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:28:40.313+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:28:40.313+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:28:40.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.144 seconds
+[2024-02-14T21:29:10.520+0000] {processor.py:161} INFO - Started process (PID=654) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:10.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:29:10.523+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:10.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:10.538+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:10.571+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:10.571+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:29:10.629+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:10.628+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:29:10.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.230 seconds
+[2024-02-14T21:29:41.131+0000] {processor.py:161} INFO - Started process (PID=664) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:41.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:29:41.134+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:41.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:41.148+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:29:41.183+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:41.183+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:29:41.214+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:29:41.214+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:29:41.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.128 seconds
+[2024-02-14T21:30:11.539+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:11.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:30:11.544+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:11.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:11.560+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:11.592+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:11.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:30:11.633+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:11.632+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:30:11.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.161 seconds
+[2024-02-14T21:30:42.008+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:42.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:30:42.019+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:42.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:42.052+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:30:42.111+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:42.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:30:42.160+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:30:42.160+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:30:42.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.208 seconds
+[2024-02-14T21:31:12.493+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:12.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:31:12.502+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:12.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:12.521+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:12.573+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:12.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:31:12.642+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:12.642+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:31:12.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.264 seconds
+[2024-02-14T21:31:42.990+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:42.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:31:43.002+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:43.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:43.015+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:31:43.049+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:43.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:31:43.089+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:31:43.088+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:31:43.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.148 seconds
+[2024-02-14T21:32:13.314+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:13.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:32:13.316+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:13.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:13.329+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:13.362+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:13.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:32:13.392+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:13.392+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:32:13.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.110 seconds
+[2024-02-14T21:32:43.620+0000] {processor.py:161} INFO - Started process (PID=726) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:43.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:32:43.626+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:43.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:43.656+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:32:43.712+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:43.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:32:43.791+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:32:43.791+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:32:43.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.217 seconds
+[2024-02-14T21:33:14.081+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:14.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:33:14.099+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:14.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:14.130+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:14.195+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:14.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:33:14.277+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:14.277+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:33:14.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.257 seconds
+[2024-02-14T21:33:44.953+0000] {processor.py:161} INFO - Started process (PID=748) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:44.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:33:44.956+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:44.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:44.969+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:33:45.006+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:45.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:33:45.120+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:33:45.119+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:33:45.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.342 seconds
+[2024-02-14T21:34:15.497+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:15.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:34:15.501+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:15.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:15.514+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:15.550+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:15.549+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:34:15.614+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:15.613+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:34:15.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.217 seconds
+[2024-02-14T21:34:45.930+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:45.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:34:45.932+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:45.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:45.945+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:34:45.978+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:45.977+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:34:46.008+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:34:46.007+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:34:46.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.126 seconds
+[2024-02-14T21:35:16.225+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:16.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:35:16.230+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:16.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:16.244+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:16.278+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:16.277+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:35:16.311+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:16.311+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:35:16.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.127 seconds
+[2024-02-14T21:35:46.689+0000] {processor.py:161} INFO - Started process (PID=790) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:46.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:35:46.692+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:46.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:46.704+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:35:46.745+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:46.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:35:46.811+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:35:46.811+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:35:46.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.162 seconds
+[2024-02-14T21:36:16.996+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:16.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:36:16.999+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:16.998+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:17.011+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:17.050+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:17.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:36:17.086+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:17.086+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:36:17.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.141 seconds
+[2024-02-14T21:36:47.416+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:47.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:36:47.419+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:47.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:47.432+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:36:47.464+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:47.464+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:36:47.502+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:36:47.502+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:36:47.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.122 seconds
+[2024-02-14T21:37:17.764+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:17.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:37:17.773+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:17.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:17.793+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:17.867+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:17.867+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:37:17.942+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:17.942+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:37:18.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.244 seconds
+[2024-02-14T21:37:48.374+0000] {processor.py:161} INFO - Started process (PID=834) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:48.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:37:48.376+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:48.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:48.389+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:37:48.421+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:48.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:37:48.448+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:37:48.447+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:37:48.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.106 seconds
+[2024-02-14T21:38:18.660+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:18.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:38:18.663+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:18.663+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:18.676+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:18.710+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:18.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:38:18.747+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:18.747+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:38:18.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.130 seconds
+[2024-02-14T21:38:48.930+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:48.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:38:48.933+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:48.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:48.948+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:38:48.985+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:48.984+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:38:49.061+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:38:49.061+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:38:49.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.193 seconds
+[2024-02-14T21:39:19.297+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:19.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:39:19.300+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:19.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:19.313+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:19.347+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:19.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:39:19.386+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:19.386+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:39:19.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.139 seconds
+[2024-02-14T21:39:49.593+0000] {processor.py:161} INFO - Started process (PID=874) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:49.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:39:49.597+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:49.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:49.609+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:39:49.641+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:49.641+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:39:49.670+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:39:49.670+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:39:49.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.118 seconds
+[2024-02-14T21:40:20.021+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:20.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:40:20.028+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:20.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:20.045+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:20.132+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:20.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:40:20.210+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:20.210+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:40:20.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.289 seconds
+[2024-02-14T21:40:50.488+0000] {processor.py:161} INFO - Started process (PID=896) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:50.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:40:50.490+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:50.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:50.503+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:40:50.535+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:50.535+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:40:50.568+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:40:50.568+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:40:50.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.118 seconds
+[2024-02-14T21:41:20.876+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:20.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:41:20.883+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:20.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:20.897+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:20.926+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:20.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:41:20.959+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:20.959+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:41:20.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.120 seconds
+[2024-02-14T21:41:51.215+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:51.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:41:51.217+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:51.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:51.231+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:41:51.263+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:51.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:41:51.294+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:41:51.293+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:41:51.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.108 seconds
+[2024-02-14T21:42:21.537+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:21.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:42:21.540+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:21.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:21.553+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:21.584+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:21.583+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:42:21.611+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:21.610+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:42:21.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.107 seconds
+[2024-02-14T21:42:51.880+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:51.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:42:51.884+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:51.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:51.898+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:42:51.931+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:51.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:42:51.992+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:42:51.991+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:42:52.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.163 seconds
+[2024-02-14T21:43:22.262+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:22.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:43:22.270+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:22.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:22.285+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:22.325+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:22.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:43:22.396+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:22.396+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:43:22.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.188 seconds
+[2024-02-14T21:43:52.705+0000] {processor.py:161} INFO - Started process (PID=959) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:52.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:43:52.709+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:52.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:52.723+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:43:52.759+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:52.758+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:43:52.792+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:43:52.791+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:43:52.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.183 seconds
+[2024-02-14T21:44:23.095+0000] {processor.py:161} INFO - Started process (PID=970) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:23.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:44:23.099+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:23.098+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:23.127+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:23.180+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:23.180+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:44:23.248+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:23.247+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:44:23.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.188 seconds
+[2024-02-14T21:44:53.533+0000] {processor.py:161} INFO - Started process (PID=980) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:53.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:44:53.543+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:53.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:53.567+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:44:53.720+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:53.719+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:44:53.850+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:44:53.849+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:44:53.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.396 seconds
+[2024-02-14T21:45:24.107+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:24.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:45:24.111+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:24.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:24.140+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:24.202+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:24.202+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:45:24.277+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:24.276+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:45:24.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.225 seconds
+[2024-02-14T21:45:54.394+0000] {processor.py:161} INFO - Started process (PID=1002) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:54.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:45:54.396+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:54.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:54.410+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:45:54.441+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:54.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:45:54.494+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:45:54.494+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:45:54.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.155 seconds
+[2024-02-14T21:46:24.667+0000] {processor.py:161} INFO - Started process (PID=1012) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:24.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:46:24.670+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:24.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:24.683+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:24.743+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:24.742+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:46:24.793+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:24.793+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:46:24.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.170 seconds
+[2024-02-14T21:46:55.087+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:55.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:46:55.090+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:55.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:55.102+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:46:55.146+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:55.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:46:55.204+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:46:55.203+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:46:55.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.170 seconds
+[2024-02-14T21:47:25.520+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:25.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:47:25.532+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:25.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:25.558+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:25.651+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:25.650+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:47:25.764+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:25.764+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:47:25.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.401 seconds
+[2024-02-14T21:47:56.160+0000] {processor.py:161} INFO - Started process (PID=1045) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:56.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:47:56.164+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:56.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:56.177+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:47:56.210+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:56.210+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:47:56.255+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:47:56.255+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:47:56.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.167 seconds
+[2024-02-14T21:48:26.714+0000] {processor.py:161} INFO - Started process (PID=1055) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:26.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:48:26.721+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:26.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:26.737+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:26.775+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:26.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:48:26.838+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:26.838+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:48:26.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.167 seconds
+[2024-02-14T21:48:56.944+0000] {processor.py:161} INFO - Started process (PID=1065) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:56.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:48:56.961+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:56.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:56.984+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:48:57.078+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:57.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:48:57.142+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:48:57.141+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:48:57.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.260 seconds
+[2024-02-14T21:49:27.398+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:27.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:49:27.404+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:27.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:27.425+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:27.479+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:27.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:49:27.544+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:27.543+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:49:27.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.190 seconds
+[2024-02-14T21:49:57.882+0000] {processor.py:161} INFO - Started process (PID=1086) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:57.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:49:57.886+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:57.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:57.908+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:49:57.985+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:57.985+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:49:58.086+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:49:58.086+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:49:58.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.265 seconds
+[2024-02-14T21:50:28.305+0000] {processor.py:161} INFO - Started process (PID=1097) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:28.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:50:28.308+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:28.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:28.322+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:28.362+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:28.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:50:28.404+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:28.404+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:50:28.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.181 seconds
+[2024-02-14T21:50:58.718+0000] {processor.py:161} INFO - Started process (PID=1107) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:58.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:50:58.721+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:58.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:58.736+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:50:58.774+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:58.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:50:58.809+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:50:58.809+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:50:58.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.196 seconds
+[2024-02-14T21:51:29.238+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:29.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:51:29.242+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:29.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:29.257+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:29.293+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:29.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:51:29.337+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:29.337+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:51:29.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.185 seconds
+[2024-02-14T21:51:59.731+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:59.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:51:59.733+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:59.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:59.769+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:51:59.879+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:59.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:51:59.920+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:51:59.919+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:51:59.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.222 seconds
+[2024-02-14T21:52:30.204+0000] {processor.py:161} INFO - Started process (PID=1139) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:52:30.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:52:30.222+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:52:30.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:52:30.301+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:52:30.539+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:52:30.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:52:30.705+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:52:30.705+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:52:30.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.569 seconds
+[2024-02-14T21:53:00.976+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:00.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:53:00.989+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:00.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:01.036+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:01.081+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:01.080+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:53:01.157+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:01.157+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:53:01.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.233 seconds
+[2024-02-14T21:53:31.525+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:31.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:53:31.528+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:31.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:31.543+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:53:31.574+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:31.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:53:31.628+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:53:31.627+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:53:31.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.144 seconds
+[2024-02-14T21:54:01.885+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:01.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:54:01.889+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:01.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:01.924+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:01.964+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:01.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:54:02.015+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:02.015+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:54:02.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.180 seconds
+[2024-02-14T21:54:32.361+0000] {processor.py:161} INFO - Started process (PID=1179) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:32.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:54:32.380+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:32.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:32.464+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:54:32.587+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:32.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:54:32.733+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:54:32.726+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:54:32.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.501 seconds
+[2024-02-14T21:55:03.089+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:03.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:55:03.093+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:03.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:03.106+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:03.138+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:03.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:55:03.171+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:03.171+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:55:03.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.121 seconds
+[2024-02-14T21:55:33.488+0000] {processor.py:161} INFO - Started process (PID=1200) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:33.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:55:33.501+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:33.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:33.531+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:55:33.760+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:33.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:55:33.816+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:33.816+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:55:33.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.355 seconds
+[2024-02-14T21:56:04.036+0000] {processor.py:161} INFO - Started process (PID=1210) to work on /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:56:04.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_taskflow_api.py for tasks to queue
+[2024-02-14T21:56:04.040+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:04.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:56:04.054+0000] {processor.py:840} INFO - DAG(s) 'dag_with_taskflow_api_v02' retrieved from /opt/airflow/dags/dag_with_taskflow_api.py
+[2024-02-14T21:56:04.087+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:04.087+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:56:04.130+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:04.123+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_taskflow_api_v02 to 2021-12-12 00:00:00+00:00, run_after=2021-12-13 00:00:00+00:00
+[2024-02-14T21:56:04.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_taskflow_api.py took 0.128 seconds
