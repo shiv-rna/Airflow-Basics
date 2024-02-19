@@ -820,3 +820,10 @@ SyntaxError: invalid syntax
 [2024-02-14T21:55:51.021+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:51.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-14T21:55:51.049+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:55:51.049+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backfill_v1 to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
 [2024-02-14T21:55:51.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.119 seconds
+[2024-02-14T21:56:21.300+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-14T21:56:21.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-14T21:56:21.303+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:21.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-14T21:56:21.311+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backfill_v1' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-14T21:56:21.334+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:21.334+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-14T21:56:21.352+0000] {logging_mixin.py:188} INFO - [2024-02-14T21:56:21.352+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backfill_v1 to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-02-14T21:56:21.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.077 seconds
