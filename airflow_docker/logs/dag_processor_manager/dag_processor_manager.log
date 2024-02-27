@@ -13228,3 +13228,17 @@ File Path                                             PID    Runtime      # DAGs
 ================================================================================
 [2024-02-27T04:35:32.254+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
 [2024-02-27T04:35:32.258+0000] {manager.py:741} INFO - There are 7 files in /opt/airflow/dags
+[2024-02-27T04:35:48.342+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                                1           0  0.10s           2024-02-27T04:35:20
+/opt/airflow/dags/dag_with_cron_exp.py                                         1           0  0.12s           2024-02-27T04:35:24
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.12s           2024-02-27T04:35:24
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.12s           2024-02-27T04:35:26
+/opt/airflow/dags/dag_with_python_dependencies.py                              1           0  0.18s           2024-02-27T04:35:31
+/opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.14s           2024-02-27T04:35:24
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.13s           2024-02-27T04:35:26
+================================================================================
