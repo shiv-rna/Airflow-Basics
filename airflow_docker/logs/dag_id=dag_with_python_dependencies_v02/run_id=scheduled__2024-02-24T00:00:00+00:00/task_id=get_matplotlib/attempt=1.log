@@ -1,0 +1,14 @@
+[2024-02-27T04:22:56.551+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_python_dependencies_v02.get_matplotlib scheduled__2024-02-24T00:00:00+00:00 [queued]>
+[2024-02-27T04:22:56.665+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_python_dependencies_v02.get_matplotlib scheduled__2024-02-24T00:00:00+00:00 [queued]>
+[2024-02-27T04:22:56.679+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-02-27T04:22:56.933+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_matplotlib> on 2024-02-24 00:00:00+00:00
+[2024-02-27T04:22:57.124+0000] {standard_task_runner.py:60} INFO - Started process 99 to run task
+[2024-02-27T04:22:57.171+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_python_dependencies_v02', 'get_matplotlib', 'scheduled__2024-02-24T00:00:00+00:00', '--job-id', '514', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_python_dependencies.py', '--cfg-path', '/tmp/tmp05opkgtn']
+[2024-02-27T04:22:57.243+0000] {standard_task_runner.py:88} INFO - Job 514: Subtask get_matplotlib
+[2024-02-27T04:22:57.689+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_python_dependencies_v02.get_matplotlib scheduled__2024-02-24T00:00:00+00:00 [running]> on host 20c52eb0acd0
+[2024-02-27T04:22:58.278+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Shiv' AIRFLOW_CTX_DAG_ID='dag_with_python_dependencies_v02' AIRFLOW_CTX_TASK_ID='get_matplotlib' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-24T00:00:00+00:00'
+[2024-02-27T04:22:59.200+0000] {logging_mixin.py:188} INFO - matplotlib version: 3.3.3
+[2024-02-27T04:22:59.212+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-02-27T04:22:59.260+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_with_python_dependencies_v02, task_id=get_matplotlib, execution_date=20240224T000000, start_date=20240227T042256, end_date=20240227T042259
+[2024-02-27T04:22:59.449+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T04:22:59.615+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

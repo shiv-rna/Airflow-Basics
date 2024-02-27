@@ -6,7 +6,6 @@ default_args={
     'owner':'Shiv',
     'retries': 5,
     'retry_delay': timedelta(minutes=5)
-      
 }
 
 with DAG(

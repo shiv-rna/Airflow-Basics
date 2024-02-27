@@ -1,0 +1,66 @@
+    1  export AIRFLOW_HOME=/workspaces/Airflow_101/airflow_tutorial
+    2  source py_env/bin/activate
+    3  cd airflow_tutorial/
+    4  source py_env/bin/activate
+    5  airflow scheduler
+    6  source py_env/bin/activate
+    7  python --version
+    8  airflow --version
+    9  clear
+   10  airflow webserver -p 8080
+   11  clear
+   12  airflow users create --help
+   13  airflow users create --username admin --firstname firstname --lastname lastname --role Admin --email admin@domain.com
+   14  airflow webserver -p 8080
+   15  airflow standalone
+   16  airflow webserver -p 8080
+   17  cd airflow_tutorial/
+   18  source py_env/bin/activate
+   19  airflow scheduler
+   20  docker-compose up -d
+   21  docker --version
+   22  clear
+   23  docker-compose ps
+   24  docker-compose down -v
+   25  docker-compose up airflow-init
+   26  docker-compose up -d
+   27  docker-compose ps
+   28  clear
+   29  docker ps
+   30  clear
+   31  /home/codespace/.python/current/bin/python3
+   32  docker ps
+   33  docker-compose down
+   34  cd airflow_docker/
+   35  docker-compose down
+   36  docker ps
+   37  clear
+   38  docker ps
+   39  cd airflow_docker/
+   40  docker-compose up -d
+   41  docker ps\
+   42  docker ps
+   43  docker-compose down
+   44  cd airflow_docker/
+   45  docker-compose down
+   46  docker ps
+   47  clear
+   48  docker ps
+   49  docker-compose up -d
+   50  docker-compose down
+   51  clear
+   52  docker-compose up -d --no-deps --build postgres
+   53  docker-compose up -d
+   54  docker ps
+   55  clear
+   56  docker exec -it 6fc97f2ee8c2 bash
+   57  clear
+   58  docker ps
+   59  clear
+   60  docker exec -it 6fc97f2ee8c2 bash
+   61  docker-compose down
+   62  docker ps
+   63  cd ..
+   64  docker ps
+   65  cd airflow_docker/
+   66  history > saved_command.txt
