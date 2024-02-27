@@ -13270,3 +13270,59 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.44s           2024-02-27T04:36:25
 /opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.14s           2024-02-27T04:36:26
 ================================================================================
+[2024-02-27T04:37:19.646+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                                1           0  0.09s           2024-02-27T04:36:53
+/opt/airflow/dags/dag_with_cron_exp.py                                         1           0  0.28s           2024-02-27T04:36:56
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.23s           2024-02-27T04:36:56
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.35s           2024-02-27T04:36:57
+/opt/airflow/dags/dag_with_python_dependencies.py                              1           0  0.10s           2024-02-27T04:37:02
+/opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.32s           2024-02-27T04:36:56
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.38s           2024-02-27T04:36:57
+================================================================================
+[2024-02-27T04:37:50.210+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                                1           0  0.09s           2024-02-27T04:37:23
+/opt/airflow/dags/dag_with_cron_exp.py                                         1           0  0.24s           2024-02-27T04:37:26
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.16s           2024-02-27T04:37:27
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.12s           2024-02-27T04:37:28
+/opt/airflow/dags/dag_with_python_dependencies.py                              1           0  0.11s           2024-02-27T04:37:33
+/opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.24s           2024-02-27T04:37:26
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.13s           2024-02-27T04:37:28
+================================================================================
+[2024-02-27T04:38:20.651+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                                1           0  0.09s           2024-02-27T04:37:54
+/opt/airflow/dags/dag_with_cron_exp.py                                         1           0  0.12s           2024-02-27T04:37:57
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.12s           2024-02-27T04:37:57
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.13s           2024-02-27T04:37:58
+/opt/airflow/dags/dag_with_python_dependencies.py                              1           0  0.29s           2024-02-27T04:38:03
+/opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.13s           2024-02-27T04:37:57
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.14s           2024-02-27T04:37:58
+================================================================================
+[2024-02-27T04:38:51.296+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_with_postgres_operator.py                                1           0  0.09s           2024-02-27T04:38:24
+/opt/airflow/dags/dag_with_cron_exp.py                                         1           0  0.34s           2024-02-27T04:38:28
+/opt/airflow/dags/dag_with_taskflow_api.py                                     1           0  0.11s           2024-02-27T04:38:28
+/opt/airflow/dags/our_first_dag.py                                             1           0  0.16s           2024-02-27T04:38:29
+/opt/airflow/dags/dag_with_python_dependencies.py                              1           0  0.10s           2024-02-27T04:38:34
+/opt/airflow/dags/dag_with_catchup_backfill.py                                 1           0  0.27s           2024-02-27T04:38:27
+/opt/airflow/dags/create_dag_with_python_operator.py                           1           0  0.18s           2024-02-27T04:38:29
+================================================================================
