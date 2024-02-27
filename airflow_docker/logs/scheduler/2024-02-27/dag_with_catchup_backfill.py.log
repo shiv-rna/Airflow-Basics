@@ -201,3 +201,52 @@
 [2024-02-27T04:28:15.165+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:28:15.165+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-27T04:28:15.192+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:28:15.192+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
 [2024-02-27T04:28:15.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.104 seconds
+[2024-02-27T04:28:45.522+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:28:45.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:28:45.524+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:28:45.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:28:45.537+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:28:45.566+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:28:45.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:28:45.595+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:28:45.595+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:28:45.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.102 seconds
+[2024-02-27T04:29:15.998+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:15.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:29:16.000+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:16.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:16.013+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:16.045+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:16.044+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:29:16.072+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:16.072+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:29:16.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.115 seconds
+[2024-02-27T04:29:46.481+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:46.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:29:46.483+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:46.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:46.496+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:29:46.529+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:46.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:29:46.558+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:29:46.558+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:29:46.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.104 seconds
+[2024-02-27T04:30:17.022+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:17.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:30:17.026+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:17.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:17.053+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:17.133+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:17.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:30:17.223+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:17.212+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:30:17.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.255 seconds
+[2024-02-27T04:30:47.924+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:47.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:30:47.936+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:47.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:47.971+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:30:48.137+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:48.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:30:48.219+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:30:48.219+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:30:48.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.335 seconds
+[2024-02-27T04:31:18.663+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:18.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:31:18.665+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:18.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:18.679+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:18.708+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:18.707+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:31:18.737+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:18.736+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:31:18.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.100 seconds
+[2024-02-27T04:31:49.185+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:49.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_with_catchup_backfill.py for tasks to queue
+[2024-02-27T04:31:49.193+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:49.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:49.221+0000] {processor.py:840} INFO - DAG(s) 'dag_with_catchup_backup_v3' retrieved from /opt/airflow/dags/dag_with_catchup_backfill.py
+[2024-02-27T04:31:49.285+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:49.285+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-27T04:31:49.335+0000] {logging_mixin.py:188} INFO - [2024-02-27T04:31:49.335+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_with_catchup_backup_v3 to 2024-02-26 00:00:00+00:00, run_after=2024-02-27 00:00:00+00:00
+[2024-02-27T04:31:49.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_with_catchup_backfill.py took 0.176 seconds
