@@ -20,23 +20,45 @@ Dockerizing Apache Airflow facilitates seamless deployment across different envi
 
 Understanding the core concepts of Airflow is essential for effective workflow orchestration. I've thoroughly studied concepts like Directed Acyclic Graphs (DAGs), Operators, Executors, and the Airflow Scheduler to grasp the fundamental workings of Airflow. Comprehending the basic architecture of Airflow lays the foundation for building robust data pipelines. From the central role of the Scheduler to the distributed nature of Executors, I've explored how each component contributes to the overall functioning of Airflow.
 
+<p align="center">
+    <img src="docs/diagram_basic_airflow_architecture.png" alt="Airflow Architecture" width="600"/>
+</p>
+
 ### Airflow Task Lifecycle
 
 The lifecycle of tasks within Airflow DAGs plays a crucial role in defining workflow behavior. The lifecycle of an Airflow task involves various states and transitions, from being scheduled and queued to running, success, or failure. I explore each stage of the task lifecycle, discussing strategies for handling task failures, retries, and dependencies.
 
+<p align="center">
+    <img src="docs/task_lifecycle_diagram.jpg" alt="Lifecycle" width="600"/>
+</p>
+
 ## 📈 DAGs (Directed Acyclic Graphs) 
+
+<p align="center">
+    <img src="docs/DAG.png" alt="DAG" width="400"/>
+</p>
 
 ### BashOperator
 
 Creating DAGs with the BashOperator has been one of the initial steps in my Airflow journey. The BashOperator enables the execution of bash commands or scripts as individual tasks within a DAG. I've practiced use cases of the BashOperator for performing file operations, data transformations, and system commands within Airflow workflows. 
 
+<p align="center">
+    <img src="docs/Bash_Operator.png" alt="Bash Operator" width="400"/>
+</p>
+
 ### PythonOperator
 
 Utilizing PythonOperators within DAGs has enabled me to execute Python functions as tasks. This flexibility has allowed me to incorporate custom Python logic directly into Airflow workflows, enhancing automation and extensibility. I illustrate how to define Python functions as tasks within DAGs, passing inputs and outputs between tasks, and leveraging external libraries and APIs.
+<p align="center">
+    <img src="docs/Python_operator.png" alt="Python Operator" width="400"/>
+</p>
 
 ### PostgresOperator
 
 The PostgresOperator in Airflow facilitates the execution of SQL commands and scripts against Postgres databases. I've utilized this operator to perform various database operations, including data ingestion, transformation, and extraction.
+<p align="center">
+    <img src="docs/PostGres_Operator.png" alt="Postgres Operator" width="500"/>
+</p>
 
 ## 📝 Advanced Concepts 
 
@@ -84,7 +106,11 @@ The AWS S3 and Minio Sensor Operators in Airflow enable the detection of file pr
 
 I extend my heartfelt gratitude to the Apache Airflow community for their invaluable contributions, insights, and support. Special thanks to the maintainers, contributors, and users of Apache Airflow for creating a vibrant and thriving ecosystem.
 
-## Connect with Me
+## 👋 Connect with Me
 
-Let's connect and continue the conversation! Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/sr099/) or [Twitter](https://twitter.com/wtfisshivang) to share your thoughts, insights, and experiences with Apache Airflow. I look forward to connecting with fellow Airflow enthusiasts and data engineering enthusiasts! I'm excited to continue my learning journey and explore further advancements in Airflow and data engineering.
+Let's connect and continue the conversation! Feel free to reach out to me via my socials below to share your thoughts, insights, and experiences with Apache Airflow. I look forward to connecting with fellow Airflow enthusiasts and data engineering enthusiasts! I'm excited to continue my learning journey and explore further advancements in Airflow and data engineering.
+
+[<img src="docs/linkedin.png" alt="Linkedin" width="50"/>](https://www.linkedin.com/in/sr099/) [<img src="docs/twitterx.png" alt="TwitterX" width="50"/>](https://twitter.com/wtfisshivang)
+
+
 
