@@ -17,22 +17,22 @@ with DAG(
     start_date=datetime(2024, 2, 12, 8),
     schedule_interval='@daily'
     ) as dag:
-        task1 = BashOperator(
+                task1 = BashOperator(
                 task_id='first_task',
                 bash_command="echo hellow world, this is the first task!"
-        )
+                )
 
-        task2 = BashOperator(
+                task2 = BashOperator(
                 task_id='second_task',
                 bash_command="echo I am the second one here!"
-        )
+                )
 
-        task3 = BashOperator(
-                task_id='third_task',
-                bash_command="echo Yo-yo! I am the amazing third one here!" 
-        )
+                task3 = BashOperator(
+                        task_id='third_task',
+                        bash_command="echo Yo-yo! I am the amazing third one here!"
+                )
 
-        task1 >> [task2, task3]
+                task1 >> [task2, task3]
         
         # task1 >> task2
         # task1 >> task3
