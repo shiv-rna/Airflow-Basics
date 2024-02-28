@@ -1,0 +1,61 @@
+[2024-02-28T03:51:36.248+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_minio_s3_v02.sensor_minio_s3 scheduled__2024-02-24T00:00:00+00:00 [queued]>
+[2024-02-28T03:51:36.295+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_minio_s3_v02.sensor_minio_s3 scheduled__2024-02-24T00:00:00+00:00 [queued]>
+[2024-02-28T03:51:36.296+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 6
+[2024-02-28T03:51:36.380+0000] {taskinstance.py:2191} INFO - Executing <Task(S3KeySensor): sensor_minio_s3> on 2024-02-24 00:00:00+00:00
+[2024-02-28T03:51:36.436+0000] {standard_task_runner.py:60} INFO - Started process 277 to run task
+[2024-02-28T03:51:36.490+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_with_minio_s3_v02', 'sensor_minio_s3', 'scheduled__2024-02-24T00:00:00+00:00', '--job-id', '542', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_minio_s3.py', '--cfg-path', '/tmp/tmpb7vr6wya']
+[2024-02-28T03:51:36.512+0000] {standard_task_runner.py:88} INFO - Job 542: Subtask sensor_minio_s3
+[2024-02-28T03:51:37.065+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_with_minio_s3_v02.sensor_minio_s3 scheduled__2024-02-24T00:00:00+00:00 [running]> on host ce0c9f4015d1
+[2024-02-28T03:51:38.058+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Shiv' AIRFLOW_CTX_DAG_ID='dag_with_minio_s3_v02' AIRFLOW_CTX_TASK_ID='sensor_minio_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-02-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-24T00:00:00+00:00'
+[2024-02-28T03:51:38.079+0000] {s3.py:106} INFO - Poking for key : s3://***/data.csv
+[2024-02-28T03:51:38.229+0000] {base_aws.py:581} WARNING - Unable to find AWS Connection ID 'minio_S3_conn', switching to empty.
+[2024-02-28T03:51:38.236+0000] {base_aws.py:161} INFO - No connection ID provided. Fallback on boto3 credential strategy (region_name=None). See: https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html
+[2024-02-28T03:51:48.264+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 144, in execute
+    super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 265, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 247, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 137, in poke
+    return self._check_key(self.bucket_key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/sensors/s3.py", line 125, in _check_key
+    obj = self.hook.head_object(key, bucket_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 137, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 91, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 887, in head_object
+    return self.get_conn().head_object(Bucket=bucket_name, Key=key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 553, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 989, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/client.py", line 1015, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 198, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/endpoint.py", line 134, in create_request
+    self._event_emitter.emit(
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 412, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 256, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/hooks.py", line 239, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 105, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/signers.py", line 195, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/botocore/auth.py", line 418, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2024-02-28T03:51:48.320+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_minio_s3_v02, task_id=sensor_minio_s3, execution_date=20240224T000000, start_date=20240228T035136, end_date=20240228T035148
+[2024-02-28T03:51:48.429+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 542 for task sensor_minio_s3 (Unable to locate credentials; 277)
+[2024-02-28T03:51:48.690+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-28T03:51:48.957+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
