@@ -1,4 +1,4 @@
-[<img src="https://github.com/jghoman/awesome-apache-airflow/raw/master/airflow-logo.png" align="right">](https://airflow.apache.org/)
+[<img src="https://github.com/jghoman/awesome-apache-airflow/raw/master/airflow-logo.png" align="right" width="200">](https://airflow.apache.org/)
 # 🗺 Airflow Learning Journey
 
 Welcome to my Airflow learning journey! 🤓 This repository serves as a comprehensive documentation of my exploration and understanding of Apache Airflow. Whether you're a beginner or an experienced user, I hope this documentation serves as a valuable resource for understanding Airflow and its capabilities. 
